@@ -24,7 +24,7 @@ So if you want to start a new translation, do the following:
 
 - start translating the strings in your new lang_xx.py
 
-- start TorChat with log_level 2 and look into the log file
+- start Phantom with log_level 2 and look into the log file
   for errors messages relating to the translation.
 
 - put your name into the header of the file and send it

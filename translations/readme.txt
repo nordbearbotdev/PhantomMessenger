@@ -10,7 +10,7 @@ directory and update the imports statements in __init__.py.
 
 Translation files in the script directory take precedence over
 the built-in ones in this folder. This is because if someone
-is using the portable windows version (torchat.exe) and just
+is using the portable windows version (phantom.exe) and just
 wants to help translating he has no access to this folder.
 
 So if you want to start a new translation, do the following:

@@ -1,0 +1,11 @@
+// формируем JQL запрос, ищем по типу BUG в эпике где хранятся жалобы по id практики (которое есть в названии каждого бага)
+const jql = `issuetype = Bug AND project = CNT AND parent = ${this.jiraEpicKey} AND text ~ "${practiceId}" order by created DESC`; 
+const response = await got.get({
+    url: `${this.jiraApiHost}/search?jql=${jql}`,
+    headers: {
+        Authorization: authorization
+    },
+    responseType: 'json'
+});
+const practiceJiraTicket = response.body['issues'] && response.body['issues'][0];
+

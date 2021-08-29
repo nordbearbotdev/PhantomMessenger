@@ -3,9 +3,9 @@
 
 ##############################################################################
 #                                                                            #
-# Copyright (c) 2007-2008 Bernd Kreuss <prof7bit@gmail.com>                  #
+# Copyright (c) 2021-2022 nordbearbot                                        #
 #                                                                            #
-# Translation file for TorChat                                               #
+# Translation file for Phantom.                                              #
 #                                                                            #
 ##############################################################################
 
@@ -42,7 +42,7 @@ MPOP_DELETE_CONTACT = u'Delete contact...'
 MPOP_SHOW_OFFLINE_MESSAGES = u'Show queued offline messages'
 MPOP_CLEAR_OFFLINE_MESSAGES = u'Clear queued offline messages'
 MPOP_ADD_CONTACT = u'Add contact...'
-MPOP_ABOUT = u'About TorChat'
+MPOP_ABOUT = u'About PhanomChat'
 MPOP_ASK_AUTHOR = u'Ask %s...'
 MPOP_SETTINGS = u'Settings...'
 
@@ -57,7 +57,7 @@ D_CONFIRM_DELETE_MESSAGE = u'Really delete this contact?\n(%s %s)'
 
 # warning about log
 
-D_LOG_WARNING_TITLE = u'TorChat: Logging is active'
+D_LOG_WARNING_TITLE = u'Phantom: Logging is active'
 D_LOG_WARNING_MESSAGE = \
     u'''Logging to file is activated!
 
@@ -67,34 +67,34 @@ Remember to delete the log file if you have finished debugging because the log f
 
 # warning about used port
 
-D_WARN_USED_PORT_TITLE = u'TorChat: Port already in use'
+D_WARN_USED_PORT_TITLE = u'Phantom: Port already in use'
 D_WARN_USED_PORT_MESSAGE = \
-    u'Something, probably another TorChat instance, is already listening at %s:%s. You must create another profile using different ports to be able to start TorChat a second time.'
+    u'Something, probably another Phantom instance, is already listening at %s:%s. You must create another profile using different ports to be able to start Phantom a second time.'
 
 # warnig about unread messages
 
-D_WARN_UNREAD_TITLE = u'TorChat: Unread messages'
+D_WARN_UNREAD_TITLE = u'Phantom: Unread messages'
 D_WARN_UNREAD_MESSAGE = \
     u'''There are unread messages.
 They will be lost forever!
 
-Do you really want to exit TorChat now?'''
+Do you really want to exit Phantom now?'''
 
 # warning about offline buddy
 
-D_WARN_BUDDY_OFFLINE_TITLE = u'TorChat: Buddy is offline'
+D_WARN_BUDDY_OFFLINE_TITLE = u'Phantom: Buddy is offline'
 D_WARN_BUDDY_OFFLINE_MESSAGE = \
     u'This operation is not possible with offline buddies'
 
 # warning about multiple files
 
-D_WARN_FILE_ONLY_ONE_TITLE = u'TorChat: Multiple files'
+D_WARN_FILE_ONLY_ONE_TITLE = u'Phantom: Multiple files'
 D_WARN_FILE_ONLY_ONE_MESSAGE = \
     u'You may not start multiple file transfers with one operation. Start the transfers individually or send a zip-file instead'
 
 # warning about file save error
 
-D_WARN_FILE_SAVE_ERROR_TITLE = u'TorChat: Error saving file'
+D_WARN_FILE_SAVE_ERROR_TITLE = u'Phantom: Error saving file'
 D_WARN_FILE_SAVE_ERROR_MESSAGE = \
     u"""The file '%s' could not be created.
 
@@ -102,7 +102,7 @@ D_WARN_FILE_SAVE_ERROR_MESSAGE = \
 
 # warning about file already exists
 
-D_WARN_FILE_ALREADY_EXISTS_TITLE = u'TorChat: File exists'
+D_WARN_FILE_ALREADY_EXISTS_TITLE = u'Phantom: File exists'
 D_WARN_FILE_ALREADY_EXISTS_MESSAGE = \
     u"The file '%s' already exists.\nOverwrite it?"
 
@@ -110,7 +110,7 @@ D_WARN_FILE_ALREADY_EXISTS_MESSAGE = \
 
 DEC_TITLE_ADD = u'Add new contact'
 DEC_TITLE_EDIT = u'Edit contact'
-DEC_TORCHAT_ID = u'TorChat ID'
+DEC_TORCHAT_ID = u'Phantom ID'
 DEC_DISPLAY_NAME = u'Display name'
 DEC_INTRODUCTION = u'Introduction'
 DEC_MSG_16_CHARACTERS = \
@@ -132,14 +132,14 @@ from %s
 
 # settings dialaog
 
-DSET_TITLE = u'TorChat configuration'
+DSET_TITLE = u'Phantom configuration'
 DSET_NET_TITLE = u'Network'
 DSET_NET_ACTIVE = u'active'
 DSET_NET_INACTIVE = u'inactive'
 DSET_NET_TOR_ADDRESS = u'Tor proxy address'
 DSET_NET_TOR_SOCKS = u'Socks port'
 DSET_NET_TOR_CONTROL = u'Control port'
-DSET_NET_OWN_HOSTNAME = u'Own TorChat-ID'
+DSET_NET_OWN_HOSTNAME = u'Own Phantom-ID'
 DSET_NET_LISTEN_INTERFACE = u'Listen interface'
 DSET_NET_LISTEN_PORT = u'Listen port'
 DSET_GUI_TITLE = u'User interface'
@@ -161,7 +161,7 @@ NOTICE_DELAYED = u'delayed'
 
 # messagebox for offline messages
 
-MSG_OFFLINE_TITLE = u'TorChat: queued messages'
+MSG_OFFLINE_TITLE = u'Phantom: queued messages'
 MSG_OFFLINE_EMPTY = u'there are no (more) queued messages for %s'
 MSG_OFFLINE_QUEUED = u'''queued offline messages for %s:
 
@@ -169,9 +169,9 @@ MSG_OFFLINE_QUEUED = u'''queued offline messages for %s:
 
 # about box
 
-ABOUT_TITLE = u'About TorChat'
+ABOUT_TITLE = u'About Phantom'
 ABOUT_TEXT = \
-    u"""TorChat %(version)s (svn: r%(svn)s)
+    u"""Phantom %(version)s (svn: r%(svn)s)
   %(copyright)s
 
 Translations:
@@ -181,7 +181,7 @@ Runtime environment:
   Python: %(python)s
   wx: %(wx)s
 
-TorChat is free software: you can redistribute it and/or \
+Phantom is free software: you can redistribute it and/or \
 modify it under the terms of the GNU General Public \
 License as published by the Free Software Foundation, \
 either version 3 of the License, or (at your option) \

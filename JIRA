@@ -1,0 +1,5 @@
+private generateAuthHeader(): string {
+    const basicAuthValue = Buffer.from(`${this.jiraEmail}:${this.jiraApiToken}`).toString('base64'); 
+    return `Basic ${basicAuthValue}`;
+}
+

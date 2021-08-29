@@ -1,0 +1,11 @@
+Package: phantom
+Version: PHANTOM_VERSION
+Section: internet
+Priority: optional
+Architecture: all
+Essential: no
+Depends: tor, python2.5, python-wxgtk2.8
+Pre-Depends: python2.5
+Maintainer: nordbearbot <prof7bit@googlemail.com>
+Provides: PHANTOM
+Description: Instant Messenger for Tor

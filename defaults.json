@@ -1,0 +1,40 @@
+{
+  "client": {
+    "listen_interface": "127.0.0.1", 
+    "listen_port": 11009, 
+    "own_hostname": "0000000000000000"
+  }, 
+  "files": {
+    "temp_files_custom_dir": "", 
+    "temp_files_in_data_dir": 1
+  }, 
+  "gui": {
+    "language": "en", 
+    "notification_flash_window": 1, 
+    "notification_popup": 1, 
+    "open_chat_window_hidden": 0, 
+    "open_main_window_hidden": 0, 
+    "time_stamp_format": "(%H:%M:%S)"
+  }, 
+  "logging": {
+    "log_file": "", 
+    "log_level": 0
+  }, 
+  "tor": {
+    "tor_server": "127.0.0.1", 
+    "tor_server_control_port": 9051, 
+    "tor_server_socks_port": 9050
+  }, 
+  "tor_portable": {
+    "tor_server": "127.0.0.1", 
+    "tor_server_control_port": 11119, 
+    "tor_server_socks_port": 11109
+  },
+  "internal": {
+    "icon_dir": "icons/",
+    "authors_id": "utvrla6mjdypbyw6",
+    "authors_name": "Bernd",
+    "copyright": "Copyright (c) 2007, 2008 Bernd Kreuß <prof7bit@gmail.com>",
+    "dead_connection_timeout": 180
+  }
+}

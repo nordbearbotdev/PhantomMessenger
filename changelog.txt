@@ -1,0 +1,78 @@
+version 0.9.9.277
+- fix (regression): non ascii characters in messages and filenames
+- fix (regression): sending files on win98 immediately disconnected buddy
+- added hungarian translation
+
+version 0.9.9.269
+- implemented drag 'n' drop file transfer
+- "edit contact" in chat window context menu
+- "send file" in chat window context menu
+- "quit" in main popup menu
+- meaningful titles for file open and save dialogs
+- removed the "bitmap not found" errors
+- the program now runs on Windows 98 SE
+- added polish translation
+- fixed issue 19: Enter-Key inserted newline before sending
+- fixed issue 20: Ask before overwriting files
+- fixed issue 27: indication of messages in main window
+- fixed: find application data folder on windows 98
+- fixed: don't open two chat windows for the same buddy
+- detect second instance on same port
+- allow multiple profiles (for permanent installation)
+- zero configuration now also on *ix platforms
+- implemented (experimental) debian package
+
+version 0.9.9.191
+- implemented configuration dialog
+- added german translation
+- added (partial) dutch translation
+- added (partial) french translation
+- let the user specify a path for temporary files, change the default
+  to be the data directory (the torchat folder in portable mode)
+
+version 0.9.9.149
+- remove the annoying permanent flicker of the buddy list
+- show own hostname in windows and taskbar icon
+- option to start up with hidden main window (only taskbar icon)
+- option to open new chat windows hidden (taskbar icon flashing instead)
+- show list of unread (hidden) windows when right click on taskbar icon
+- show buddy status in chat window icon
+- show list of unread (hidden) windows in taskbar icon tooltip
+- ask before exiting when there are unread messages
+- show message with timestamp when delayed messages have been sent
+
+version 0.9.9.140
+- incompatible protocol change! (adding and removing buddies)
+- implemented offline messages
+- implemented logging
+- bugfix: possible race condition when opening 2 chat windows in a short time
+- bugfix: allow non-ascii characters in buddy name
+- bugfix: a buddy can now be removed from the list
+- bugfix: prevent possible DoS attack through faked "ping" messages
+- bugfix: wrong initialization of buddy list window didn't work on Mac
+
+version 0.9.9.109
+- bugfix: if /tmp was on a separate partition, file receiving was broken
+- bugfix: show correct buddy status immediately after connect
+- new connection attempts and keep-alives now in random intervals
+- implemented configuration file
+- included some (unfinished) documentation
+
+version 0.9.9.98
+- bugfix: allow non ascii characters in filenames
+
+version 0.9.9.96
+- bugfix: fixes slow connection in 0.9.9.95
+
+version 0.9.9.95
+- notification popups and flashing symbols in taskbar
+- file transfers can recover from connection breakdowns
+
+version 0.9.9.85
+- time stamps in chat window
+- fixed: Messages may now contain newline characters
+- file transfer
+
+versions up to 0.9.9.64
+- basic messaging functionality
+- first really stable version

@@ -1,0 +1,10 @@
+#!/bin/sh
+
+cd /usr/share/phantom
+echo creating symbolic links... 
+ln -s /usr/share/pixmaps/phantom icons
+
+echo compiling to bytecode...
+python -OOc "import torchat"
+
+echo Phantom installed.

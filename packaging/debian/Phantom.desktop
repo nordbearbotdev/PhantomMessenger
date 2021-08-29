@@ -1,0 +1,12 @@
+[Desktop Entry]
+Categories=Network;InstantMessaging;
+Name=Phantom Instant Messenger
+Comment=Anonymous Instant Messenger for Tor
+Version=%s
+Exec=/usr/bin/Phantom
+Path=/usr/share/Phantom/
+Icon=/usr/share/pixmaps/Phantom/phantom.png
+StartupNotify=true
+StartupWMClass=Phantom
+Terminal=false
+Type=Application

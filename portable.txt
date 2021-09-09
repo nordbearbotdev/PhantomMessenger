@@ -1,5 +1,5 @@
 This file (portable.txt) is used to indicate that
-TorChat is running in portable mode. If this file
+Phantom is running in portable mode. If this file
 is found in this folder, all config and data will
 be stored in the program folder itself, rather
 than in the users home directory.

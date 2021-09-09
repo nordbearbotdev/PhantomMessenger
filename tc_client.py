@@ -3,7 +3,7 @@
 
 ##############################################################################
 #                                                                            #
-# Copyright (c) 2021-2022 nordbearbot <prof7bit@gmail.com>                  #
+# Copyright (c) 2021-2022 nordbearbot                                        #
 #                                                                            #
 # This program is licensed under the GNU General Public License V3,          #
 # the full source code is included in the binary distribution.               #

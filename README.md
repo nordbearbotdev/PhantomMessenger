@@ -3,5 +3,9 @@ Phantom It is one of the open source decentralized network (mesh) technologies d
 
 Thanks you to @vekotov and @seveneven7 (7even)
 
+Donut
+====
+If you want to buy me a beer (very much appreciated) you can do so via
 
-
+* Bitcoin: 18hmynLnHC44XiGiiPqfuTL3M4xPeJ5KqW
+* Payeer: 

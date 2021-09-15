@@ -5,7 +5,7 @@ Thanks you to @vekotov and @seveneven7 (7even)
 
 Donut
 ====
-If you want to buy me a beer (very much appreciated) you can do so via
+If you want to buy me a donut (very much appreciated) you can do so via
 
 * Bitcoin: 3EykcK7AXCu7Gk3XmTLsa4mPq7chHcbKb3
 * Payeer: P1042089500

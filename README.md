@@ -7,6 +7,6 @@ Donut
 ====
 If you want to buy me a beer (very much appreciated) you can do so via
 
-Bitcoin: 3EykcK7AXCu7Gk3XmTLsa4mPq7chHcbKb3
-Payeer: P1042089500
-Etherium: 0xc5d8166c1edc27DEB81811bD3708dDf20e644351
+* Bitcoin: 3EykcK7AXCu7Gk3XmTLsa4mPq7chHcbKb3
+* Payeer: P1042089500
+* Ethereum: 0xc5d8166c1edc27DEB81811bD3708dDf20e644351
